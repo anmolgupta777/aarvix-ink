@@ -1,0 +1,147 @@
+gallery.html<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Gallery - Aarvix Ink</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+text-align:center;
+}
+
+nav{
+background:#111;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.gallery img{
+
+width:280px;
+margin:10px;
+border-radius:10px;
+transition:0.3s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.section-title{
+
+margin-top:40px;
+font-size:28px;
+color:#ffcc00;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="services.html">Services</a>
+
+<a href="gallery.html">Gallery</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<h1>My Work Gallery</h1>
+
+<!-- Tattoo Section -->
+
+<h2 class="section-title">
+🎨 Tattoo Work
+</h2>
+
+<div class="gallery">
+
+<img src="tattoo1.jpg">
+<img src="tattoo2.jpg">
+<img src="tattoo3.jpg">
+<img src="tattoo4.jpg">
+<img src="tattoo5.jpg">
+<img src="tattoo6.jpg">
+<img src="tattoo7.jpg">
+<img src="tattoo8.jpg">
+<img src="tattoo9.jpg">
+<img src="tattoo10.jpg">
+
+</div>
+
+<!-- Dreadlocks Section -->
+
+<h2 class="section-title">
+🧵 Dreadlocks Work
+</h2>
+
+<div class="gallery">
+
+<img src="dread1.jpg">
+<img src="dread2.jpg">
+<img src="dread3.jpg">
+<img src="dread4.jpg">
+<img src="dread5.jpg">
+<img src="dread6.jpg">
+<img src="dread7.jpg">
+<img src="dread8.jpg">
+
+</div>
+
+<!-- Influencer Section -->
+
+<h2 class="section-title">
+👤 Influencer & Lifestyle
+</h2>
+
+<div class="gallery">
+
+<img src="profile1.jpg">
+<img src="profile2.jpg">
+<img src="profile3.jpg">
+<img src="profile4.jpg">
+<img src="profile5.jpg">
+<img src="profile6.jpg">
+<img src="profile7.jpg">
+<img src="profile8.jpg">
+<img src="profile9.jpg">
+<img src="profile10.jpg">
+<img src="profile11.jpg">
+<img src="profile12.jpg">
+
+</div>
+
+</body>
+
+</html>
