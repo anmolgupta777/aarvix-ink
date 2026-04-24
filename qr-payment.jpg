@@ -1,0 +1,35 @@
+<!-- Appointment Booking Section -->
+<section style="background:#000; color:#fff; padding:40px; text-align:center;">
+    
+    <h2 style="font-size:28px; margin-bottom:20px;">
+        Book Appointment
+    </h2>
+
+    <p style="font-size:18px; margin-bottom:20px;">
+        To confirm your tattoo appointment, 
+        pay ₹500 advance using the QR below.
+    </p>
+
+    <img src="qr-payment.jpg" 
+         alt="UPI QR Payment" 
+         style="width:250px; border-radius:15px; margin-bottom:20px;">
+
+    <p style="font-size:16px;">
+        After payment, send screenshot on WhatsApp:
+    </p>
+
+    <a href="https://wa.me/917897505392" 
+       style="
+       display:inline-block;
+       background:#25D366;
+       color:#fff;
+       padding:12px 25px;
+       border-radius:8px;
+       text-decoration:none;
+       font-size:18px;
+       margin-top:10px;
+       ">
+       Send Payment Screenshot
+    </a>
+
+</section>
