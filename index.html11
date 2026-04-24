@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aarvix Ink | Tattoo Artist</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:black;
+color:white;
+scroll-behavior:smooth;
+}
+
+/* Navbar */
+
+nav{
+background:#111;
+padding:15px;
+position:sticky;
+top:0;
+text-align:center;
+z-index:999;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffcc00;
+}
+
+/* Sections */
+
+section{
+padding:50px 20px;
+text-align:center;
+}
+
+/* Slider */
+
+.slider{
+width:100%;
+overflow:hidden;
+}
+
+.slides{
+display:flex;
+width:500%;
+animation:slide 15s infinite;
+}
+
+.slides img{
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+@keyframes slide{
+
+0%{margin-left:0;}
+20%{margin-left:0;}
+
+25%{margin-left:-100%;}
+45%{margin-left:-100%;}
+
+50%{margin-left:-200%;}
+70%{margin-left:-200%;}
+
+75%{margin-left:-300%;}
+90%{margin-left:-300%;}
+
+100%{margin-left:-400%;}
+
+}
+
+/* Gallery */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* Table */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border-bottom:1px solid #333;
+}
+
+/* QR */
+
+.qr{
+width:250px;
+margin-top:20px;
+}
+
+/* Reviews */
+
+.review{
+background:#111;
+padding:15px;
+border-radius:10px;
+margin:10px;
+}
+
+/* WhatsApp */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#reels">Reels</a>
+<a href="#price">Price</a>
+<a href="#booking">Booking</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<!-- HOME -->
+
+<section id="home">
+
+<h1 style="color:gold;">
+Aarvix Ink
+</h1>
+
+<p>
+Tattoo | Piercing | Dreadlocks Artist  
+10+ Years Experience
+</p>
+
+<div class="slider">
+
+<div class="slides">
+
+<img src="slide1.jpg">
+<img src="slide2.jpg">
+<img src="slide3.jpg">
+<img src="slide4.jpg">
+<img src="slide5.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery">
+
+<h2>🖼 Tattoo Gallery</h2>
+
+<div class="gallery">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+
+<img src="photo6.jpg">
+<img src="photo7.jpg">
+<img src="photo8.jpg">
+<img src="photo9.jpg">
+<img src="photo10.jpg">
+
+<img src="photo11.jpg">
+<img src="photo12.jpg">
+<img src="photo13.jpg">
+<img src="photo14.jpg">
+<img src="photo15.jpg">
+
+<img src="photo16.jpg">
+<img src="photo17.jpg">
+<img src="photo18.jpg">
+<img src="photo19.jpg">
+<img src="photo20.jpg">
+
+<img src="photo21.jpg">
+<img src="photo22.jpg">
+<img src="photo23.jpg">
+<img src="photo24.jpg">
+<img src="photo25.jpg">
+
+<img src="photo26.jpg">
+<img src="photo27.jpg">
+<img src="photo28.jpg">
+<img src="photo29.jpg">
+<img src="photo30.jpg">
+
+</div>
+
+</section>
+
+<!-- REELS -->
+
+<section id="reels">
+
+<h2>🎬 Instagram Reels</h2>
+
+<iframe 
+src="https://www.instagram.com/reel/DBFROh3OBTw/embed"
+width="300"
+height="540">
+</iframe>
+
+<iframe 
+src="https://www.instagram.com/reel/DAtaOGbSvQq/embed"
+width="300"
+height="540">
+</iframe>
+
+<iframe 
+src="https://www.instagram.com/reel/DA1w9Yis-vK/embed"
+width="300"
+height="540">
+</iframe>
+
+</section>
+
+<!-- PRICE -->
+
+<section id="price">
+
+<h2>💰 Price List</h2>
+
+<table>
+
+<tr>
+<th>Service</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Small Tattoo</td>
+<td>₹500+</td>
+</tr>
+
+<tr>
+<td>Medium Tattoo</td>
+<td>₹1500+</td>
+</tr>
+
+<tr>
+<td>Large Tattoo</td>
+<td>₹3000+</td>
+</tr>
+
+<tr>
+<td>Piercing</td>
+<td>₹300+</td>
+</tr>
+
+<tr>
+<td>Dreadlocks</td>
+<td>₹2000+</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- BOOKING -->
+
+<section id="booking">
+
+<h2>📅 Book Appointment</h2>
+
+<form action="https://formsubmit.co/anmolgupta777@gmail.com" method="POST">
+
+<input type="text" placeholder="Name" required>
+
+<input type="tel" placeholder="Phone" required>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<textarea placeholder="Tattoo Details"></textarea>
+
+<button type="submit">
+Submit Booking
+</button>
+
+</form>
+
+<h3>Pay ₹500 Advance</h3>
+
+<img src="qr-payment.jpg" class="qr">
+
+</section>
+
+<!-- REVIEWS -->
+
+<section>
+
+<h2>⭐ Client Reviews</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Best tattoo artist  
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Clean and professional  
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐ Amazing work  
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>📞 Contact</h2>
+
+<p>
+Phone: +91 7897505392
+</p>
+
+<a href="https://www.instagram.com/anmolgupta_777"
+style="
+background:#E1306C;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+">
+Instagram
+</a>
+
+</section>
+
+<a href="https://wa.me/917897505392"
+class="whatsapp">
+WhatsApp
+</a>
+slide1.jpg → slide5.jpg
+photo1.jpg → photo30.jpg
+qr-payment.jpg
+logo.pngHome  
+Gallery  
+Reels  
+Price  
+Booking  
+Contact
+</body>
+
+</html>
