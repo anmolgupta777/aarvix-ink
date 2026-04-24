@@ -1,0 +1,57 @@
+<section style="
+padding:60px;
+background:#0a0a0a;
+color:white;
+text-align:center;
+">
+
+<h2 style="
+color:#ffcc00;
+font-size:32px;
+margin-bottom:30px;
+">
+
+🎬 My Instagram Reels
+
+</h2>
+
+<div style="
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+">
+
+<!-- Reel 1 -->
+
+<iframe
+width="300"
+height="500"
+src="https://www.instagram.com/p/REEL_LINK_1/embed"
+frameborder="0"
+scrolling="no"
+allowtransparency="true">
+</iframe>
+
+<!-- Reel 2 -->
+
+<iframe
+width="300"
+height="500"
+src="https://www.instagram.com/p/REEL_LINK_2/embed"
+frameborder="0"
+scrolling="no">
+</iframe>
+
+<!-- Reel 3 -->
+
+<iframe
+width="300"
+height="500"
+src="https://www.instagram.com/p/REEL_LINK_3/embed"
+frameborder="0">
+</iframe>
+
+</div>
+
+</section>
