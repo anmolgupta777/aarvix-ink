@@ -1,0 +1,49 @@
+<!-- Booking Form -->
+<section style="background:#111; color:#fff; padding:40px; text-align:center;">
+
+<h2 style="font-size:30px; margin-bottom:25px;">
+📅 Book Your Tattoo Appointment
+</h2>
+
+<form action="https://formsubmit.co/anmolgupta777@gmail.com" method="POST">
+
+<input type="text" 
+placeholder="Your Name" 
+required
+style="width:90%; padding:12px; margin:10px; border-radius:8px; border:none;">
+
+<input type="tel" 
+placeholder="Phone Number" 
+required
+style="width:90%; padding:12px; margin:10px; border-radius:8px; border:none;">
+
+<input type="date" 
+required
+style="width:90%; padding:12px; margin:10px; border-radius:8px; border:none;">
+
+<input type="time" 
+required
+style="width:90%; padding:12px; margin:10px; border-radius:8px; border:none;">
+
+<textarea 
+placeholder="Tattoo Details"
+required
+style="width:90%; padding:12px; margin:10px; border-radius:8px; border:none;">
+</textarea>
+
+<button type="submit"
+style="
+background:red;
+color:#fff;
+padding:12px 25px;
+border:none;
+border-radius:8px;
+font-size:18px;
+margin-top:15px;
+">
+Submit Booking
+</button>
+
+</form>
+
+</section>
