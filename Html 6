@@ -1,0 +1,97 @@
+<!-- Client Reviews -->
+<section style="background:#000; color:#fff; padding:40px; text-align:center;">
+
+<h2 style="font-size:30px; margin-bottom:30px;">
+⭐ Client Reviews
+</h2>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;">
+
+<div style="background:#111; padding:20px; border-radius:10px;">
+⭐⭐⭐⭐⭐  
+<p>Best tattoo artist in Varanasi! Very professional work.</p>
+<b>- Rahul Singh</b>
+</div>
+
+<div style="background:#111; padding:20px; border-radius:10px;">
+⭐⭐⭐⭐⭐  
+<p>Amazing piercing service. Highly recommended.</p>
+<b>- Aman Verma</b>
+</div>
+
+<div style="background:#111; padding:20px; border-radius:10px;">
+⭐⭐⭐⭐⭐  
+<p>Clean studio and perfect design work.</p>
+<b>- Neha Sharma</b>
+</div>
+
+</div>
+
+</section>
+<!-- Instagram Follow -->
+<section style="background:#111; color:#fff; padding:40px; text-align:center;">
+
+<h2 style="font-size:30px; margin-bottom:20px;">
+📸 Follow on Instagram
+</h2>
+
+<p style="margin-bottom:20px;">
+See latest tattoo work and reels.
+</p>
+
+<a href="https://www.instagram.com/anmolgupta_777"
+target="_blank"
+style="
+background:#E1306C;
+color:#fff;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+font-size:18px;
+">
+Visit Instagram
+</a>
+
+</section>
+<!-- Price List -->
+<section style="background:#000; color:#fff; padding:40px; text-align:center;">
+
+<h2 style="font-size:30px; margin-bottom:25px;">
+💰 Tattoo Price List
+</h2>
+
+<table style="width:100%; border-collapse:collapse;">
+
+<tr style="background:#111;">
+<th style="padding:12px;">Service</th>
+<th style="padding:12px;">Starting Price</th>
+</tr>
+
+<tr>
+<td style="padding:12px;">Small Tattoo</td>
+<td style="padding:12px;">₹500</td>
+</tr>
+
+<tr>
+<td style="padding:12px;">Medium Tattoo</td>
+<td style="padding:12px;">₹1500</td>
+</tr>
+
+<tr>
+<td style="padding:12px;">Large Tattoo</td>
+<td style="padding:12px;">₹3000+</td>
+</tr>
+
+<tr>
+<td style="padding:12px;">Body Piercing</td>
+<td style="padding:12px;">₹300+</td>
+</tr>
+
+<tr>
+<td style="padding:12px;">Dreadlocks</td>
+<td style="padding:12px;">₹2000+</td>
+</tr>
+
+</table>
+
+</section>
