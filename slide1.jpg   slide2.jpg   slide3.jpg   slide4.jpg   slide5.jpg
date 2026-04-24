@@ -1,0 +1,54 @@
+<!-- Image Slider -->
+
+<section class="slider">
+
+<div class="slides">
+
+<img src="slide1.jpg">
+<img src="slide2.jpg">
+<img src="slide3.jpg">
+<img src="slide4.jpg">
+<img src="slide5.jpg">
+
+</div>
+
+</section>
+
+<style>
+
+.slider{
+width:100%;
+overflow:hidden;
+}
+
+.slides{
+display:flex;
+width:500%;
+animation:slide 15s infinite;
+}
+
+.slides img{
+width:100%;
+height:400px;
+object-fit:cover;
+}
+
+@keyframes slide{
+
+0%{margin-left:0;}
+20%{margin-left:0;}
+
+25%{margin-left:-100%;}
+45%{margin-left:-100%;}
+
+50%{margin-left:-200%;}
+70%{margin-left:-200%;}
+
+75%{margin-left:-300%;}
+90%{margin-left:-300%;}
+
+100%{margin-left:-400%;}
+
+}
+
+</style>
